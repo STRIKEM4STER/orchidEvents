@@ -1,5 +1,6 @@
 import React, { useEffect, useRef, useState } from "react";
 import "./Wedding.css";
+import Header from "./components/Header";
 
 const images = [
   "https://images.unsplash.com/photo-1587271636175-90d58cdad458?fm=jpg&q=60&w=3000&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8OHx8aW5kaWFuJTIwd2VkZGluZ3xlbnwwfHwwfHx8MA%3D%3D",
@@ -8,6 +9,8 @@ const images = [
   "https://static1.squarespace.com/static/5add0781b10598c55cc087b7/t/5e1401733f8ed65e20755788/1578369407108/PopWedding4.png?format=1500w",
   "https://static1.squarespace.com/static/5add0781b10598c55cc087b7/t/5e1401733f8ed65e20755788/1578369407108/PopWedding4.png?format=1500w",
 ];
+
+
 
 export default function Event() {
   const [current, setCurrent] = useState(0);
@@ -34,6 +37,7 @@ export default function Event() {
 
   return (
     <div className="Main">
+      <Header/>
       <div className="Container-1">
   <img
     src={images[current]}

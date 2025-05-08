@@ -1,6 +1,5 @@
 import { BrowserRouter,Routes,Route } from "react-router-dom"
 import Event from "./Wedding"
-import ReviewSection from "./review"
 
 function App() {
   
@@ -10,8 +9,7 @@ function App() {
     <div>
       <BrowserRouter>
         <Routes>
-        <Route path="/" element={<Event/>} />        
-        <Route path="/review" element={<ReviewSection/>} />  
+        <Route path="/" element={<Event/>} />         
         </Routes>
       
       </BrowserRouter>
