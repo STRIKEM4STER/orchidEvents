@@ -19,7 +19,7 @@ const ReviewSection = () => {
   };
 
   return (
-    <div style={styles.wrapper}>
+    <div className="mb-5" style={styles.wrapper}>
       <form onSubmit={handleSubmit} style={styles.form}>
         <h2 style={styles.heading}>Leave a Review</h2>
         <input

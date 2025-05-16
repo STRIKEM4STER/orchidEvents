@@ -1,6 +1,8 @@
 import React, { useEffect, useRef, useState } from "react";
 import "./Wedding.css";
 import Header from "./components/Header";
+import Footer from "../footer";
+import ReviewSection from "../Review";
 
 const images = [
   "https://images.unsplash.com/photo-1587271636175-90d58cdad458?fm=jpg&q=60&w=3000&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8OHx8aW5kaWFuJTIwd2VkZGluZ3xlbnwwfHwwfHx8MA%3D%3D",
@@ -98,6 +100,8 @@ export default function Event() {
       </div>
 
       <div className="Container-4"></div>
+      <ReviewSection/>
+      <Footer/>
     </div>
   );
 }

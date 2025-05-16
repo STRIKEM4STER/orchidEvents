@@ -4,7 +4,7 @@ import { Link } from "react-router-dom";
 
 export default function Header() {
   return (
-    <Navbar bg="dark" variant="dark" expand="lg">
+    <Navbar bg="dark" variant="dark" expand="lg" className='p-3'>
       <Container>
         <Navbar.Brand as={Link} to="/">Orchid Events</Navbar.Brand>
         <Navbar.Toggle aria-controls="basic-navbar-nav" />
