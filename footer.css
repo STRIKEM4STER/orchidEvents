@@ -1,0 +1,49 @@
+.footer {
+    width: 100vw;
+    background-color: rebeccapurple;
+    color: white;
+    padding: 2rem 0;
+}
+
+.footer-container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 2rem;
+}
+
+.links {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    margin-bottom: 2rem;
+}
+
+.links h5 {
+    margin: 0.5rem 0;
+    cursor: pointer;
+}
+
+.copyright {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+    border-top: 1px solid rgba(255, 255, 255, 0.3);
+    padding-top: 1rem;
+}
+
+.c-left h6 {
+    margin: 0;
+}
+
+.c-right img {
+    height: 24px;
+    width: 24px;
+    margin-left: 1rem;
+    cursor: pointer;
+    transition: transform 0.3s;
+}
+
+.c-right img:hover {
+    transform: scale(1.1);
+}
